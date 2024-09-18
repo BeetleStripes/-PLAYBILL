@@ -1,0 +1,60 @@
+header {
+     border: solid 0px rgb(238, 191, 0);
+}
+   
+
+    body{
+     
+    color: rgb(255, 196, 0);
+    background: black;
+    margin: 30px;
+    font-family: "Spicy Rice", serif;
+    margin-bottom: 100px;
+}
+
+header {
+        border-bottom: solid 7px rgb(255, 208, 0);
+        padding: 20px;
+        font-size: 60px;
+        color: rgb(255, 200, 0);
+}
+
+.chamada{
+    background: rgb(49, 48, 45);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 10%;
+}
+h1{
+    font-size: 40px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos   img:hover{
+    opacity: 1.0;
+    border: 1px solid gold;
+}
